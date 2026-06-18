@@ -1,0 +1,19 @@
+{
+  "name": "riding-path-worker",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "secret:vapid-private": "wrangler secret put VAPID_PRIVATE_KEY",
+    "kv:create": "wrangler kv namespace create DEVICES"
+  },
+  "dependencies": {
+    "@block65/webcrypto-web-push": "^1.0.2"
+  },
+  "devDependencies": {
+    "wrangler": "^4.102.0",
+    "web-push": "^3.6.7"
+  }
+}

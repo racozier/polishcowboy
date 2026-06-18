@@ -1,0 +1,1623 @@
+[
+  {
+    "id": "instructor",
+    "title": {
+      "pl": "Instruktor Jazdy Konnej",
+      "en": "Riding Instructor"
+    },
+    "milestones": [
+      {
+        "id": "i13",
+        "title": {
+          "pl": "Anatomia i biomechanika konia",
+          "en": "Horse Anatomy & Biomechanics"
+        },
+        "categories": [
+          {
+            "id": "i2",
+            "title": {
+              "pl": "Budowa i typy konia",
+              "en": "Conformation & Types"
+            },
+            "items": [
+              {
+                "id": "i0",
+                "text": {
+                  "pl": "Budowa zewnętrzna konia — maść, odmiany, oznaczenia",
+                  "en": "External conformation — coat colors, markings, identification"
+                },
+                "done": false
+              },
+              {
+                "id": "i1",
+                "text": {
+                  "pl": "Typy i rasy koni używanych w jeździectwie",
+                  "en": "Breeds and types used in riding"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i5",
+            "title": {
+              "pl": "Układ kostno-stawowy",
+              "en": "Skeletal & Joint System"
+            },
+            "items": [
+              {
+                "id": "i3",
+                "text": {
+                  "pl": "Anatomia układu kostno-stawowego konia",
+                  "en": "Anatomy of the skeletal/joint system"
+                },
+                "done": false
+              },
+              {
+                "id": "i4",
+                "text": {
+                  "pl": "Problemy ortopedyczne wpływające na wierzchowość",
+                  "en": "Orthopedic issues affecting rideability"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i8",
+            "title": {
+              "pl": "Układ mięśniowy",
+              "en": "Muscular System"
+            },
+            "items": [
+              {
+                "id": "i6",
+                "text": {
+                  "pl": "Anatomia układu mięśniowego konia",
+                  "en": "Anatomy of the muscular system"
+                },
+                "done": false
+              },
+              {
+                "id": "i7",
+                "text": {
+                  "pl": "Linia grzbietowa i impulsja — wpływ napięcia mięśni na ruch",
+                  "en": "Topline and impulsion — how muscle tension affects movement"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i10",
+            "title": {
+              "pl": "Biomechanika ruchu",
+              "en": "Movement Biomechanics"
+            },
+            "items": [
+              {
+                "id": "i9",
+                "text": {
+                  "pl": "Biomechanika chodów — stęp, kłus, galop, cwał",
+                  "en": "Biomechanics of gaits — walk, trot, canter, gallop"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i12",
+            "title": {
+              "pl": "Ból i dyskomfort",
+              "en": "Pain & Discomfort"
+            },
+            "items": [
+              {
+                "id": "i11",
+                "text": {
+                  "pl": "Oznaki bólu i dyskomfortu u konia (face pain scale, ogon, uszy)",
+                  "en": "Signs of pain/discomfort (facial pain scale, tail, ears)"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i23",
+        "title": {
+          "pl": "Neurologia i psychologia konia",
+          "en": "Equine Neurology & Psychology"
+        },
+        "categories": [
+          {
+            "id": "i15",
+            "title": {
+              "pl": "Neurobiologia",
+              "en": "Neurobiology"
+            },
+            "items": [
+              {
+                "id": "i14",
+                "text": {
+                  "pl": "Neurobiologia konia: układ limbiczny, reakcja strachu, stres",
+                  "en": "Equine neurobiology: limbic system, fear response, stress"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i18",
+            "title": {
+              "pl": "Teoria uczenia się",
+              "en": "Learning Theory"
+            },
+            "items": [
+              {
+                "id": "i16",
+                "text": {
+                  "pl": "Habituacja, warunkowanie klasyczne i instrumentalne",
+                  "en": "Habituation, classical and operant conditioning"
+                },
+                "done": false
+              },
+              {
+                "id": "i17",
+                "text": {
+                  "pl": "Teoria uczenia koni — podejście naukowe vs tradycyjne",
+                  "en": "Equine learning theory — scientific vs traditional approach"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i22",
+            "title": {
+              "pl": "Komunikacja i zachowanie",
+              "en": "Communication & Behavior"
+            },
+            "items": [
+              {
+                "id": "i19",
+                "text": {
+                  "pl": "Komunikacja człowiek-koń (pressure-release, czas reakcji)",
+                  "en": "Human-horse communication (pressure-release, reaction time)"
+                },
+                "done": false
+              },
+              {
+                "id": "i20",
+                "text": {
+                  "pl": "Hierarchia stadna i zachowanie socjalne",
+                  "en": "Herd hierarchy and social behavior"
+                },
+                "done": false
+              },
+              {
+                "id": "i21",
+                "text": {
+                  "pl": "Rozpoznawanie zachowań lękowych i agresywnych",
+                  "en": "Recognizing fearful and aggressive behavior"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i33",
+        "title": {
+          "pl": "Anatomia i biomechanika jeźdźca",
+          "en": "Rider Anatomy & Biomechanics"
+        },
+        "categories": [
+          {
+            "id": "i26",
+            "title": {
+              "pl": "Budowa jeźdźca",
+              "en": "Rider Build"
+            },
+            "items": [
+              {
+                "id": "i24",
+                "text": {
+                  "pl": "Budowa miednicy i kręgosłupa — wpływ na dosiad",
+                  "en": "Pelvis and spine structure — effect on seat"
+                },
+                "done": false
+              },
+              {
+                "id": "i25",
+                "text": {
+                  "pl": "Mięśnie kluczowe dla dosiadu: core, przywodziciele, pośladki",
+                  "en": "Key muscles for the seat: core, adductors, glutes"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i30",
+            "title": {
+              "pl": "Balans i symetria",
+              "en": "Balance & Symmetry"
+            },
+            "items": [
+              {
+                "id": "i27",
+                "text": {
+                  "pl": "Symetria jeźdźca — częste asymetrie i korekcja",
+                  "en": "Rider symmetry — common asymmetries and correction"
+                },
+                "done": false
+              },
+              {
+                "id": "i28",
+                "text": {
+                  "pl": "Balans i środek ciężkości w siodle",
+                  "en": "Balance and center of gravity in the saddle"
+                },
+                "done": false
+              },
+              {
+                "id": "i29",
+                "text": {
+                  "pl": "Wpływ napięcia mięśniowego jeźdźca na ruch konia",
+                  "en": "Effect of rider muscle tension on the horse's movement"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i32",
+            "title": {
+              "pl": "Korekta dosiadu",
+              "en": "Seat Correction"
+            },
+            "items": [
+              {
+                "id": "i31",
+                "text": {
+                  "pl": "Typowe błędy dosiadu i ćwiczenia korekcyjne",
+                  "en": "Common seat errors and corrective exercises"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i48",
+        "title": {
+          "pl": "Podstawy jeździectwa i metodyka nauczania",
+          "en": "Riding Fundamentals & Teaching Methodology"
+        },
+        "categories": [
+          {
+            "id": "i36",
+            "title": {
+              "pl": "Skala treningowa",
+              "en": "Training Scale"
+            },
+            "items": [
+              {
+                "id": "i34",
+                "text": {
+                  "pl": "Skala treningowa FEI (rytm, rozluźnienie, kontakt, impulsja, prostowanie, zebranie)",
+                  "en": "FEI training scale (rhythm, relaxation, contact, impulsion, straightness, collection)"
+                },
+                "done": false
+              },
+              {
+                "id": "i35",
+                "text": {
+                  "pl": "Pomoce jeździeckie — nogi, ręce, dosiad, głos, bat, ostrogi",
+                  "en": "Riding aids — legs, hands, seat, voice, whip, spurs"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i40",
+            "title": {
+              "pl": "Ćwiczenia ujeżdżeniowe",
+              "en": "Dressage Exercises"
+            },
+            "items": [
+              {
+                "id": "i37",
+                "text": {
+                  "pl": "Serpentyny, wolta, zmiana ręki, przejścia",
+                  "en": "Serpentines, circles, changes of rein, transitions"
+                },
+                "done": false
+              },
+              {
+                "id": "i38",
+                "text": {
+                  "pl": "Praca na dwóch śladach, ustępowanie od nogi",
+                  "en": "Lateral work, leg-yield"
+                },
+                "done": false
+              },
+              {
+                "id": "i39",
+                "text": {
+                  "pl": "Praca bez strzemion i bez wodzy — ćwiczenia balansowe",
+                  "en": "Work without stirrups/reins — balance exercises"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i43",
+            "title": {
+              "pl": "Skoki i teren",
+              "en": "Jumping & Trail"
+            },
+            "items": [
+              {
+                "id": "i41",
+                "text": {
+                  "pl": "Skoki — podstawy, kurs przeszkód, ocena skoczności",
+                  "en": "Jumping — basics, course riding, scope assessment"
+                },
+                "done": false
+              },
+              {
+                "id": "i42",
+                "text": {
+                  "pl": "Jazda terenowa — bezpieczeństwo, technika, zarządzanie grupą",
+                  "en": "Trail riding — safety, technique, group management"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i47",
+            "title": {
+              "pl": "Dydaktyka",
+              "en": "Pedagogy"
+            },
+            "items": [
+              {
+                "id": "i44",
+                "text": {
+                  "pl": "Metodyka nauczania dzieci vs dorosłych",
+                  "en": "Teaching methodology for children vs adults"
+                },
+                "done": false
+              },
+              {
+                "id": "i45",
+                "text": {
+                  "pl": "Struktura lekcji: rozgrzewka, praca właściwa, wyciszenie",
+                  "en": "Lesson structure: warm-up, main work, cool-down"
+                },
+                "done": false
+              },
+              {
+                "id": "i46",
+                "text": {
+                  "pl": "Feedback i komunikacja z uczniem",
+                  "en": "Feedback and communication with the student"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i57",
+        "title": {
+          "pl": "Sprzęt, siodlarstwo i pielęgnacja",
+          "en": "Tack, Equipment & Grooming"
+        },
+        "categories": [
+          {
+            "id": "i52",
+            "title": {
+              "pl": "Siodła i ogłowia",
+              "en": "Saddles & Bridles"
+            },
+            "items": [
+              {
+                "id": "i49",
+                "text": {
+                  "pl": "Rodzaje siodeł i dopasowanie do konia i jeźdźca",
+                  "en": "Saddle types and fitting for horse and rider"
+                },
+                "done": false
+              },
+              {
+                "id": "i50",
+                "text": {
+                  "pl": "Ogłowie, kiełzna — rodzaje i zasady działania",
+                  "en": "Bridles, bits — types and how they work"
+                },
+                "done": false
+              },
+              {
+                "id": "i51",
+                "text": {
+                  "pl": "Siodłanie i ogłowienie — procedury i bezpieczeństwo",
+                  "en": "Tacking up — procedures and safety"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i56",
+            "title": {
+              "pl": "Pielęgnacja i kontrola zdrowia",
+              "en": "Grooming & Health Checks"
+            },
+            "items": [
+              {
+                "id": "i53",
+                "text": {
+                  "pl": "Pielęgnacja konia przed i po jeździe: czyszczenie, kopyta",
+                  "en": "Grooming before/after riding: brushing, hooves"
+                },
+                "done": false
+              },
+              {
+                "id": "i54",
+                "text": {
+                  "pl": "Kontrola zdrowia konia przed jazdą (lameness check, temperament)",
+                  "en": "Pre-ride health check (lameness check, temperament)"
+                },
+                "done": false
+              },
+              {
+                "id": "i55",
+                "text": {
+                  "pl": "Dobór konia do poziomu i wagi ucznia",
+                  "en": "Matching horse to student's level and weight"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i66",
+        "title": {
+          "pl": "Bezpieczeństwo i prawo",
+          "en": "Safety & Law"
+        },
+        "categories": [
+          {
+            "id": "i62",
+            "title": {
+              "pl": "Przepisy i ubezpieczenia",
+              "en": "Regulations & Insurance"
+            },
+            "items": [
+              {
+                "id": "i58",
+                "text": {
+                  "pl": "Przepisy jeździeckie PZJ — licencje, regulaminy zawodów",
+                  "en": "National federation rules — licenses, competition regulations"
+                },
+                "done": false
+              },
+              {
+                "id": "i59",
+                "text": {
+                  "pl": "Ubezpieczenie instruktora i uczniów",
+                  "en": "Instructor and student insurance"
+                },
+                "done": false
+              },
+              {
+                "id": "i60",
+                "text": {
+                  "pl": "Odpowiedzialność prawna instruktora",
+                  "en": "Legal liability of the instructor"
+                },
+                "done": false
+              },
+              {
+                "id": "i61",
+                "text": {
+                  "pl": "Dokumentacja kursów i pracy z uczniem",
+                  "en": "Course and student record documentation"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i65",
+            "title": {
+              "pl": "Bezpieczeństwo i pierwsza pomoc",
+              "en": "Safety & First Aid"
+            },
+            "items": [
+              {
+                "id": "i63",
+                "text": {
+                  "pl": "Zasady bezpieczeństwa w stajni i na ujeżdżalni",
+                  "en": "Safety rules in the stable and arena"
+                },
+                "done": false
+              },
+              {
+                "id": "i64",
+                "text": {
+                  "pl": "Pierwsza pomoc — urazy w jeździectwie (upadki, stłuczenia, złamania)",
+                  "en": "First aid — riding injuries (falls, bruises, fractures)"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i74",
+        "title": {
+          "pl": "Zarządzanie grupą i pedagogika",
+          "en": "Group Management & Pedagogy"
+        },
+        "categories": [
+          {
+            "id": "i69",
+            "title": {
+              "pl": "Prowadzenie grupy",
+              "en": "Running a Group"
+            },
+            "items": [
+              {
+                "id": "i67",
+                "text": {
+                  "pl": "Prowadzenie grup na ujeżdżalni — kolejność, odstępy, komendy",
+                  "en": "Running arena groups — order, spacing, commands"
+                },
+                "done": false
+              },
+              {
+                "id": "i68",
+                "text": {
+                  "pl": "Zarządzanie stresem i paniką ucznia",
+                  "en": "Managing student stress and panic"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i73",
+            "title": {
+              "pl": "Style uczenia się",
+              "en": "Learning Styles"
+            },
+            "items": [
+              {
+                "id": "i70",
+                "text": {
+                  "pl": "Różne style uczenia się — wzrokowy, słuchowy, kinestetyczny",
+                  "en": "Learning styles — visual, auditory, kinesthetic"
+                },
+                "done": false
+              },
+              {
+                "id": "i71",
+                "text": {
+                  "pl": "Motywowanie uczniów i praca z blokadami psychicznymi",
+                  "en": "Motivating students and working through mental blocks"
+                },
+                "done": false
+              },
+              {
+                "id": "i72",
+                "text": {
+                  "pl": "Prowadzenie lekcji próbnej i ocena poziomu ucznia",
+                  "en": "Running a trial lesson and assessing student level"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i83",
+        "title": {
+          "pl": "Praktyka — umiejętności do potwierdzenia",
+          "en": "Practice — Skills to Confirm"
+        },
+        "categories": [
+          {
+            "id": "i79",
+            "title": {
+              "pl": "Lekcje praktyczne",
+              "en": "Practical Lessons"
+            },
+            "items": [
+              {
+                "id": "i75",
+                "text": {
+                  "pl": "Samodzielne przeprowadzenie lekcji z początkującym dorosłym",
+                  "en": "Independently teach a beginner adult lesson"
+                },
+                "done": false
+              },
+              {
+                "id": "i76",
+                "text": {
+                  "pl": "Samodzielne przeprowadzenie lekcji z dzieckiem 6–10 lat",
+                  "en": "Independently teach a child (6-10 yrs) lesson"
+                },
+                "done": false
+              },
+              {
+                "id": "i77",
+                "text": {
+                  "pl": "Korekta dosiadu ucznia w ruchu (kłus, galop)",
+                  "en": "Correct a student's seat in motion (trot, canter)"
+                },
+                "done": false
+              },
+              {
+                "id": "i78",
+                "text": {
+                  "pl": "Prowadzenie jazdy terenowej z grupą 3–5 osób",
+                  "en": "Lead a trail ride with a group of 3-5 riders"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i82",
+            "title": {
+              "pl": "Obserwacja i refleksja",
+              "en": "Observation & Reflection"
+            },
+            "items": [
+              {
+                "id": "i80",
+                "text": {
+                  "pl": "Nagranie i analiza własnej lekcji (video feedback)",
+                  "en": "Record and analyze your own lesson (video feedback)"
+                },
+                "done": false
+              },
+              {
+                "id": "i81",
+                "text": {
+                  "pl": "Obserwacja 5 lekcji doświadczonego instruktora + notatki",
+                  "en": "Observe 5 lessons by an experienced instructor + notes"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "behavioralist",
+    "title": {
+      "pl": "Behawiorysta Koński",
+      "en": "Horse Behavioralist"
+    },
+    "milestones": [
+      {
+        "id": "i95",
+        "title": {
+          "pl": "Etologia i nauka o zachowaniu",
+          "en": "Ethology & Behavioral Science"
+        },
+        "categories": [
+          {
+            "id": "i88",
+            "title": {
+              "pl": "Podstawy etologii",
+              "en": "Ethology Basics"
+            },
+            "items": [
+              {
+                "id": "i84",
+                "text": {
+                  "pl": "Naturalne zachowanie konia w stadzie dzikim",
+                  "en": "Natural behavior of feral/wild herd horses"
+                },
+                "done": false
+              },
+              {
+                "id": "i85",
+                "text": {
+                  "pl": "Budżet czasowy konia — żerowanie, odpoczynek, ruch, socjalizacja",
+                  "en": "Equine time budget — grazing, rest, locomotion, socializing"
+                },
+                "done": false
+              },
+              {
+                "id": "i86",
+                "text": {
+                  "pl": "Sygnały ciała — uszy, ogon, nozdrza, oczy, postawa",
+                  "en": "Body language — ears, tail, nostrils, eyes, posture"
+                },
+                "done": false
+              },
+              {
+                "id": "i87",
+                "text": {
+                  "pl": "Drabina eskalacji (ladder of aggression / calming signals)",
+                  "en": "Ladder of aggression / calming signals"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i94",
+            "title": {
+              "pl": "Nauka o uczeniu się",
+              "en": "Learning Science"
+            },
+            "items": [
+              {
+                "id": "i89",
+                "text": {
+                  "pl": "Warunkowanie klasyczne i instrumentalne w praktyce",
+                  "en": "Classical and operant conditioning in practice"
+                },
+                "done": false
+              },
+              {
+                "id": "i90",
+                "text": {
+                  "pl": "Wzmocnienie pozytywne i negatywne (R+/R-)",
+                  "en": "Positive and negative reinforcement (R+/R-)"
+                },
+                "done": false
+              },
+              {
+                "id": "i91",
+                "text": {
+                  "pl": "Kształtowanie zachowania (shaping) i timing nagrody",
+                  "en": "Behavior shaping and reward timing"
+                },
+                "done": false
+              },
+              {
+                "id": "i92",
+                "text": {
+                  "pl": "Wygaszanie, generalizacja i dyskryminacja bodźców",
+                  "en": "Extinction, generalization, stimulus discrimination"
+                },
+                "done": false
+              },
+              {
+                "id": "i93",
+                "text": {
+                  "pl": "Pułapki tresury — wzmocnienie niepożądanych zachowań",
+                  "en": "Training pitfalls — accidental reinforcement of unwanted behavior"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i105",
+        "title": {
+          "pl": "Neurobiologia stresu i emocji",
+          "en": "Stress & Emotion Neurobiology"
+        },
+        "categories": [
+          {
+            "id": "i100",
+            "title": {
+              "pl": "Układ nerwowy i stres",
+              "en": "Nervous System & Stress"
+            },
+            "items": [
+              {
+                "id": "i96",
+                "text": {
+                  "pl": "Reakcja walki/ucieczki/zamrożenia (fight/flight/freeze)",
+                  "en": "Fight/flight/freeze response"
+                },
+                "done": false
+              },
+              {
+                "id": "i97",
+                "text": {
+                  "pl": "Allostaza i przewlekły stres u koni",
+                  "en": "Allostasis and chronic stress in horses"
+                },
+                "done": false
+              },
+              {
+                "id": "i98",
+                "text": {
+                  "pl": "Próg pobudzenia (threshold) i praca pod progiem",
+                  "en": "Threshold of arousal and working under threshold"
+                },
+                "done": false
+              },
+              {
+                "id": "i99",
+                "text": {
+                  "pl": "Habituacja vs uczulenie (sensitization) na bodźce",
+                  "en": "Habituation vs sensitization to stimuli"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i104",
+            "title": {
+              "pl": "Stan emocjonalny",
+              "en": "Emotional State"
+            },
+            "items": [
+              {
+                "id": "i101",
+                "text": {
+                  "pl": "Wskaźniki dobrostanu — Five Domains / Five Freedoms",
+                  "en": "Welfare indicators — Five Domains / Five Freedoms"
+                },
+                "done": false
+              },
+              {
+                "id": "i102",
+                "text": {
+                  "pl": "Stereotypie i zachowania zastępcze (kribbing, weaving)",
+                  "en": "Stereotypies / vices (cribbing, weaving)"
+                },
+                "done": false
+              },
+              {
+                "id": "i103",
+                "text": {
+                  "pl": "Wyuczona bezradność — rozpoznanie i unikanie",
+                  "en": "Learned helplessness — recognition and avoidance"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i116",
+        "title": {
+          "pl": "Diagnostyka zachowań problemowych",
+          "en": "Problem Behavior Diagnostics"
+        },
+        "categories": [
+          {
+            "id": "i109",
+            "title": {
+              "pl": "Analiza przyczyn",
+              "en": "Root Cause Analysis"
+            },
+            "items": [
+              {
+                "id": "i106",
+                "text": {
+                  "pl": "Odróżnianie przyczyn medycznych od behawioralnych",
+                  "en": "Distinguishing medical vs behavioral causes"
+                },
+                "done": false
+              },
+              {
+                "id": "i107",
+                "text": {
+                  "pl": "Wywiad behawioralny z właścicielem (historia konia)",
+                  "en": "Behavioral history interview with the owner"
+                },
+                "done": false
+              },
+              {
+                "id": "i108",
+                "text": {
+                  "pl": "Funkcjonalna analiza zachowania (antecedent-behavior-consequence)",
+                  "en": "Functional behavior analysis (ABC model)"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i115",
+            "title": {
+              "pl": "Typowe problemy",
+              "en": "Common Problem Behaviors"
+            },
+            "items": [
+              {
+                "id": "i110",
+                "text": {
+                  "pl": "Zachowania lękowe — spanikowanie, ucieczka, zamrożenie",
+                  "en": "Fear-based behavior — spooking, flight, freezing"
+                },
+                "done": false
+              },
+              {
+                "id": "i111",
+                "text": {
+                  "pl": "Agresja — w stajni, podczas jedzenia, pod siodłem",
+                  "en": "Aggression — in the stall, at feeding, under saddle"
+                },
+                "done": false
+              },
+              {
+                "id": "i112",
+                "text": {
+                  "pl": "Problemy z ładowaniem do przyczepy",
+                  "en": "Trailer loading issues"
+                },
+                "done": false
+              },
+              {
+                "id": "i113",
+                "text": {
+                  "pl": "Problemy z kuciem, weterynarzem i zabiegami",
+                  "en": "Issues with farrier, vet, and procedures"
+                },
+                "done": false
+              },
+              {
+                "id": "i114",
+                "text": {
+                  "pl": "Separation anxiety i problemy z samotnością",
+                  "en": "Separation anxiety and being alone issues"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i126",
+        "title": {
+          "pl": "Metody modyfikacji zachowania",
+          "en": "Behavior Modification Methods"
+        },
+        "categories": [
+          {
+            "id": "i120",
+            "title": {
+              "pl": "Desensytyzacja i counterconditioning",
+              "en": "Desensitization & Counterconditioning"
+            },
+            "items": [
+              {
+                "id": "i117",
+                "text": {
+                  "pl": "Systematyczna desensytyzacja na bodźce",
+                  "en": "Systematic desensitization to stimuli"
+                },
+                "done": false
+              },
+              {
+                "id": "i118",
+                "text": {
+                  "pl": "Counterconditioning — zmiana emocjonalnej reakcji",
+                  "en": "Counterconditioning — changing emotional response"
+                },
+                "done": false
+              },
+              {
+                "id": "i119",
+                "text": {
+                  "pl": "Praca z approach/retreat i pressure-release",
+                  "en": "Approach/retreat and pressure-release work"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i125",
+            "title": {
+              "pl": "Trening celowany",
+              "en": "Targeted Training"
+            },
+            "items": [
+              {
+                "id": "i121",
+                "text": {
+                  "pl": "Target training i clicker training",
+                  "en": "Target training and clicker training"
+                },
+                "done": false
+              },
+              {
+                "id": "i122",
+                "text": {
+                  "pl": "Budowanie pewności siebie konia (confidence building)",
+                  "en": "Building the horse's confidence"
+                },
+                "done": false
+              },
+              {
+                "id": "i123",
+                "text": {
+                  "pl": "Praca liberty i budowanie relacji bez przymusu",
+                  "en": "Liberty work and relationship building without coercion"
+                },
+                "done": false
+              },
+              {
+                "id": "i124",
+                "text": {
+                  "pl": "Plan modyfikacji zachowania krok po kroku",
+                  "en": "Step-by-step behavior modification plan"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i135",
+        "title": {
+          "pl": "Obserwacja praktyczna i studia przypadków",
+          "en": "Practical Observation & Case Studies"
+        },
+        "categories": [
+          {
+            "id": "i130",
+            "title": {
+              "pl": "Notatki i materiały",
+              "en": "Notes & Source Material"
+            },
+            "items": [
+              {
+                "id": "i127",
+                "text": {
+                  "pl": "Notatki z analizy materiałów wideo (np. Ryan Rose i inni behawioryści)",
+                  "en": "Notes from analyzing video case studies (e.g. Ryan Rose and other behavioralists)"
+                },
+                "done": false
+              },
+              {
+                "id": "i128",
+                "text": {
+                  "pl": "Zbiór własnych obserwacji zachowań różnych koni",
+                  "en": "Personal log of behavior observations across different horses"
+                },
+                "done": false
+              },
+              {
+                "id": "i129",
+                "text": {
+                  "pl": "Porównanie podejść różnych szkół behawioralnych",
+                  "en": "Comparing approaches across different behavioral schools"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i134",
+            "title": {
+              "pl": "Praktyka",
+              "en": "Hands-on Practice"
+            },
+            "items": [
+              {
+                "id": "i131",
+                "text": {
+                  "pl": "Przeprowadzenie pełnej oceny behawioralnej konia",
+                  "en": "Conduct a full behavioral assessment of a horse"
+                },
+                "done": false
+              },
+              {
+                "id": "i132",
+                "text": {
+                  "pl": "Wdrożenie i udokumentowanie planu modyfikacji zachowania",
+                  "en": "Implement and document a behavior modification plan"
+                },
+                "done": false
+              },
+              {
+                "id": "i133",
+                "text": {
+                  "pl": "Konsultacja z weterynarzem/fizjoterapeutą w trudnym przypadku",
+                  "en": "Consult a vet/physio on a difficult case"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hippotherapy",
+    "title": {
+      "pl": "Instruktor Hipoterapii",
+      "en": "Hippotherapy Instructor"
+    },
+    "milestones": [
+      {
+        "id": "i143",
+        "title": {
+          "pl": "Podstawy kliniczne i neurobiologia",
+          "en": "Clinical Basics & Neurobiology"
+        },
+        "categories": [
+          {
+            "id": "i139",
+            "title": {
+              "pl": "Neuroplastyczność i ruch konia",
+              "en": "Neuroplasticity & Horse Movement"
+            },
+            "items": [
+              {
+                "id": "i136",
+                "text": {
+                  "pl": "Neuroplastyczność i jej znaczenie w rehabilitacji — wpływ ruchu konia na OUN",
+                  "en": "Neuroplasticity and its role in rehab — effect of horse movement on the CNS"
+                },
+                "done": false
+              },
+              {
+                "id": "i137",
+                "text": {
+                  "pl": "Wpływ impulsów ruchowych konia na miednicę pacjenta (ruch 3D)",
+                  "en": "Effect of the horse's movement impulses on the patient's pelvis (3D movement)"
+                },
+                "done": false
+              },
+              {
+                "id": "i138",
+                "text": {
+                  "pl": "Mechanizm regulacji napięcia mięśniowego przez ruch konia",
+                  "en": "Mechanism of muscle tone regulation via horse movement"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i142",
+            "title": {
+              "pl": "Integracja sensoryczna i psychologia",
+              "en": "Sensory Integration & Psychology"
+            },
+            "items": [
+              {
+                "id": "i140",
+                "text": {
+                  "pl": "Integracja sensoryczna w kontekście hipoterapii",
+                  "en": "Sensory integration in the context of hippotherapy"
+                },
+                "done": false
+              },
+              {
+                "id": "i141",
+                "text": {
+                  "pl": "Psychologiczne efekty kontaktu z koniem (Animal Assisted Therapy)",
+                  "en": "Psychological effects of horse contact (Animal Assisted Therapy basics)"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i151",
+        "title": {
+          "pl": "Wskazania i przeciwwskazania",
+          "en": "Indications & Contraindications"
+        },
+        "categories": [
+          {
+            "id": "i146",
+            "title": {
+              "pl": "Wskazania",
+              "en": "Indications"
+            },
+            "items": [
+              {
+                "id": "i144",
+                "text": {
+                  "pl": "Mózgowe porażenie dziecięce (MPD), SM, udar, autyzm, ADHD, depresja",
+                  "en": "Cerebral palsy, MS, stroke, autism, ADHD, depression"
+                },
+                "done": false
+              },
+              {
+                "id": "i145",
+                "text": {
+                  "pl": "Różnice wskazań dla dzieci vs dorosłych vs seniorów",
+                  "en": "Differences in indications for children vs adults vs seniors"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i150",
+            "title": {
+              "pl": "Przeciwwskazania i kwalifikacja",
+              "en": "Contraindications & Qualification"
+            },
+            "items": [
+              {
+                "id": "i147",
+                "text": {
+                  "pl": "Przeciwwskazania bezwzględne: alergia, osteoporoza, aktywne zapalenia stawów, niekontrolowana padaczka",
+                  "en": "Absolute contraindications: allergy, osteoporosis, active arthritis, uncontrolled epilepsy"
+                },
+                "done": false
+              },
+              {
+                "id": "i148",
+                "text": {
+                  "pl": "Ocena pacjenta przed kwalifikacją do hipoterapii",
+                  "en": "Patient assessment before hippotherapy qualification"
+                },
+                "done": false
+              },
+              {
+                "id": "i149",
+                "text": {
+                  "pl": "Współpraca z lekarzem prowadzącym — dokumentacja, zgody",
+                  "en": "Collaboration with the treating physician — documentation, consents"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i159",
+        "title": {
+          "pl": "Dobór i przygotowanie konia hipoterapeutycznego",
+          "en": "Selecting & Preparing the Hippotherapy Horse"
+        },
+        "categories": [
+          {
+            "id": "i154",
+            "title": {
+              "pl": "Wybór konia",
+              "en": "Horse Selection"
+            },
+            "items": [
+              {
+                "id": "i152",
+                "text": {
+                  "pl": "Cechy konia odpowiedniego do hipoterapii: charakter, ruch, wielkość",
+                  "en": "Traits of a suitable hippotherapy horse: temperament, gait, size"
+                },
+                "done": false
+              },
+              {
+                "id": "i153",
+                "text": {
+                  "pl": "Jak ocenić jakość stępa konia dla celów terapeutycznych",
+                  "en": "Assessing walk quality for therapeutic purposes"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i158",
+            "title": {
+              "pl": "Przygotowanie i sprzęt",
+              "en": "Preparation & Equipment"
+            },
+            "items": [
+              {
+                "id": "i155",
+                "text": {
+                  "pl": "Przygotowanie konia do pracy z pacjentem — hartowanie na bodźce",
+                  "en": "Preparing the horse for patient work — desensitization to stimuli"
+                },
+                "done": false
+              },
+              {
+                "id": "i156",
+                "text": {
+                  "pl": "Wyposażenie — siodło hipoterapeutyczne, pad, uchwyt, strzemiona bezpieczne",
+                  "en": "Equipment — hippotherapy saddle, pad, handle, safety stirrups"
+                },
+                "done": false
+              },
+              {
+                "id": "i157",
+                "text": {
+                  "pl": "Praca konia na lonży podczas sesji terapeutycznej",
+                  "en": "Working the horse on a lunge line during sessions"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i167",
+        "title": {
+          "pl": "Pozycje, ćwiczenia i planowanie sesji",
+          "en": "Positions, Exercises & Session Planning"
+        },
+        "categories": [
+          {
+            "id": "i161",
+            "title": {
+              "pl": "Pozycje terapeutyczne",
+              "en": "Therapeutic Positions"
+            },
+            "items": [
+              {
+                "id": "i160",
+                "text": {
+                  "pl": "Pozycje terapeutyczne: siedzenie przodem, tyłem, bokiem, w poprzek",
+                  "en": "Therapeutic positions: forward, backward, side, crosswise sitting"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i166",
+            "title": {
+              "pl": "Ćwiczenia i planowanie",
+              "en": "Exercises & Planning"
+            },
+            "items": [
+              {
+                "id": "i162",
+                "text": {
+                  "pl": "Ćwiczenia aktywizujące: dotykowe, równoważne, koordynacyjne, oddechowe",
+                  "en": "Activating exercises: tactile, balance, coordination, breathing"
+                },
+                "done": false
+              },
+              {
+                "id": "i163",
+                "text": {
+                  "pl": "Planowanie sesji dla konkretnej jednostki (np. MPD typ spastyczny)",
+                  "en": "Planning a session for a specific condition (e.g. spastic cerebral palsy)"
+                },
+                "done": false
+              },
+              {
+                "id": "i164",
+                "text": {
+                  "pl": "Progresja terapeutyczna — planowanie długoterminowego programu",
+                  "en": "Therapeutic progression — long-term program planning"
+                },
+                "done": false
+              },
+              {
+                "id": "i165",
+                "text": {
+                  "pl": "Dokumentacja postępów pacjenta — skale oceny, arkusze obserwacji",
+                  "en": "Documenting patient progress — assessment scales, observation sheets"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i174",
+        "title": {
+          "pl": "Praca z konkretnymi grupami pacjentów",
+          "en": "Working with Specific Patient Groups"
+        },
+        "categories": [
+          {
+            "id": "i173",
+            "title": {
+              "pl": "Grupy pacjentów",
+              "en": "Patient Groups"
+            },
+            "items": [
+              {
+                "id": "i168",
+                "text": {
+                  "pl": "Dzieci z autyzmem — komunikacja niewerbalna, rutyna, bodźce sensoryczne",
+                  "en": "Children with autism — nonverbal communication, routine, sensory input"
+                },
+                "done": false
+              },
+              {
+                "id": "i169",
+                "text": {
+                  "pl": "Mózgowe porażenie dziecięce — typy (spastyczny, atetotyczny, ataktyczny)",
+                  "en": "Cerebral palsy — types (spastic, athetoid, ataxic)"
+                },
+                "done": false
+              },
+              {
+                "id": "i170",
+                "text": {
+                  "pl": "Pacjenci po udarze — asymetria, zaburzenia równowagi",
+                  "en": "Stroke patients — asymmetry, balance disorders"
+                },
+                "done": false
+              },
+              {
+                "id": "i171",
+                "text": {
+                  "pl": "Zaburzenia psychiczne i emocjonalne — granice terapeutyczne",
+                  "en": "Mental/emotional disorders — therapeutic boundaries"
+                },
+                "done": false
+              },
+              {
+                "id": "i172",
+                "text": {
+                  "pl": "Seniorzy — demencja, osteoporoza, mobilność ograniczona",
+                  "en": "Seniors — dementia, osteoporosis, limited mobility"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i182",
+        "title": {
+          "pl": "Bezpieczeństwo i praca zespołowa",
+          "en": "Safety & Teamwork"
+        },
+        "categories": [
+          {
+            "id": "i178",
+            "title": {
+              "pl": "Role i protokoły",
+              "en": "Roles & Protocols"
+            },
+            "items": [
+              {
+                "id": "i175",
+                "text": {
+                  "pl": "Role w sesji: terapeuta, prowadzący konia, asystent boczny",
+                  "en": "Session roles: therapist, horse leader, side-walker"
+                },
+                "done": false
+              },
+              {
+                "id": "i176",
+                "text": {
+                  "pl": "Protokół bezpieczeństwa: podchodzenie do konia z pacjentem, zsiadanie awaryjne",
+                  "en": "Safety protocol: approaching the horse with a patient, emergency dismount"
+                },
+                "done": false
+              },
+              {
+                "id": "i177",
+                "text": {
+                  "pl": "Pierwsza pomoc specyficzna dla hipoterapii (drgawki, omdlenie na koniu)",
+                  "en": "Hippotherapy-specific first aid (seizures, fainting on horseback)"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i181",
+            "title": {
+              "pl": "Prawo i etyka",
+              "en": "Law & Ethics"
+            },
+            "items": [
+              {
+                "id": "i179",
+                "text": {
+                  "pl": "Certyfikacja i regulacje prawne hipoterapii w Polsce (NFZ, PZTIH)",
+                  "en": "Certification and legal regulations for hippotherapy in Poland (NFZ, PZTIH)"
+                },
+                "done": false
+              },
+              {
+                "id": "i180",
+                "text": {
+                  "pl": "Etyka w pracy z osobami z niepełnosprawnościami",
+                  "en": "Ethics in working with people with disabilities"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i190",
+        "title": {
+          "pl": "Praktyka kliniczna",
+          "en": "Clinical Practice"
+        },
+        "categories": [
+          {
+            "id": "i185",
+            "title": {
+              "pl": "Obserwacja i superwizja",
+              "en": "Observation & Supervision"
+            },
+            "items": [
+              {
+                "id": "i183",
+                "text": {
+                  "pl": "Obserwacja 5+ sesji hipoterapeutycznych z opisem pacjentów",
+                  "en": "Observe 5+ hippotherapy sessions with patient descriptions"
+                },
+                "done": false
+              },
+              {
+                "id": "i184",
+                "text": {
+                  "pl": "Samodzielne przeprowadzenie sesji pod superwizją (MPD lub autyzm)",
+                  "en": "Independently run a supervised session (CP or autism)"
+                },
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "i189",
+            "title": {
+              "pl": "Dokumentacja i rozwój",
+              "en": "Documentation & Development"
+            },
+            "items": [
+              {
+                "id": "i186",
+                "text": {
+                  "pl": "Napisanie planu terapeutycznego dla konkretnego przypadku",
+                  "en": "Write a therapy plan for a specific case"
+                },
+                "done": false
+              },
+              {
+                "id": "i187",
+                "text": {
+                  "pl": "Udział w warsztacie/szkoleniu certyfikowanego hipoterapeuty",
+                  "en": "Attend a workshop/training by a certified hippotherapist"
+                },
+                "done": false
+              },
+              {
+                "id": "i188",
+                "text": {
+                  "pl": "Zapoznanie się z literaturą EBP (evidence-based practice) w hipoterapii",
+                  "en": "Review evidence-based practice (EBP) literature in hippotherapy"
+                },
+                "done": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

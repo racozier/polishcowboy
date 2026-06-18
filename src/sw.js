@@ -66,6 +66,25 @@ self.addEventListener("periodicsync", (event) => {
   }
 });
 
+// Real Web Push from the Cloudflare Worker — works even when the app is
+// fully closed, as long as the OS/browser keeps the push subscription alive.
+self.addEventListener("push", (event) => {
+  let payload = { title: "Droga do Instruktora", body: "" };
+  try {
+    if (event.data) payload = event.data.json();
+  } catch {
+    // ignore malformed payloads
+  }
+  event.waitUntil(
+    self.registration.showNotification(payload.title, {
+      body: payload.body,
+      icon: `${BASE}icons/icon-192.png`,
+      badge: `${BASE}icons/icon-192.png`,
+      tag: "riding-path-reminder",
+    })
+  );
+});
+
 self.addEventListener("notificationclick", (event) => {
   event.notification.close();
   event.waitUntil(

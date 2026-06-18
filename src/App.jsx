@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { get, set } from "idb-keyval";
 import { getAllChecklists, useChecklistState } from "./hooks/useChecklistState";
 import { useDailyReminders } from "./hooks/useDailyReminders";
+import { usePushReminders } from "./hooks/usePushReminders";
 import ChecklistView from "./components/ChecklistView";
 import { HERO_IMAGES, CHECKLIST_IMAGES } from "./data/images";
 import "./App.css";
@@ -30,8 +31,8 @@ const STRINGS = {
     en: "All done! You're ready. 🐎",
   },
   bgActive: {
-    pl: "+ przypomnienia w tle (zainstaluj jako appkę)",
-    en: "+ background reminders (install as an app)",
+    pl: "+ przypomnienia w tle, nawet gdy appka jest zamknięta",
+    en: "+ background reminders, even when the app is closed",
   },
 };
 
@@ -39,7 +40,7 @@ const HERO_IMAGE = HERO_IMAGES[0];
 
 function App() {
   const checklists = getAllChecklists();
-  const { isDone, toggleItem, getCurrentItem, getStats } = useChecklistState();
+  const { isDone, toggleItem, getCurrentItem, getStats, progress } = useChecklistState();
 
   const [lang, setLang] = useState("pl");
   const [activeTab, setActiveTab] = useState(checklists[0].id);
@@ -80,6 +81,13 @@ function App() {
 
   const { permission, requestPermission, periodicSyncActive } =
     useDailyReminders(getReminderPayload);
+
+  const { subscribed: pushSubscribed } = usePushReminders({
+    lang,
+    activeTab,
+    progress,
+    enabled: permission === "granted",
+  });
 
   return (
     <div className="app">
@@ -125,7 +133,7 @@ function App() {
         ) : permission === "granted" ? (
           <span className="reminders-on">
             {STRINGS.remindersOn[lang]}
-            {periodicSyncActive && <em> {STRINGS.bgActive[lang]}</em>}
+            {(pushSubscribed || periodicSyncActive) && <em> {STRINGS.bgActive[lang]}</em>}
           </span>
         ) : (
           <button onClick={requestPermission}>{STRINGS.enableReminders[lang]}</button>

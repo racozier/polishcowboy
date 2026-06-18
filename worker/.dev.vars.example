@@ -1,0 +1,3 @@
+# Copy this file to .dev.vars (gitignored) for local `wrangler dev` testing.
+# In production this is set with: npm run secret:vapid-private
+VAPID_PRIVATE_KEY=your-vapid-private-key-here
