@@ -20,4 +20,4 @@ VAPID_PUBLIC_KEY = "BFa4SAbtmScNARjp-_PyLO5PqDxX8_tQTs4FFqBKt_99W2TCkpJtq8AGNCjr
 # Replace `id` below with the id printed by `npm run kv:create`.
 [[kv_namespaces]]
 binding = "DEVICES"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+id = "3756a3213df047b8ba3af1fd7577d07f"
