@@ -1,28 +1,26 @@
 import { useEffect, useState } from "react";
+import { get, set } from "idb-keyval";
 import { CHECKLISTS } from "../data/checklists";
 
-const STORAGE_KEY = "ridingPath.progress.v1";
-
-function loadProgress() {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    return raw ? JSON.parse(raw) : {};
-  } catch {
-    return {};
-  }
-}
-
-function saveProgress(progress) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
-}
+// Progress lives in IndexedDB (not localStorage) so the service worker can
+// read the same store in the background to build reminder notifications.
+const PROGRESS_KEY = "ridingPath.progress.v1";
 
 // progress shape: { [itemId]: true }
 export function useChecklistState() {
-  const [progress, setProgress] = useState(loadProgress);
+  const [progress, setProgress] = useState({});
+  const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    saveProgress(progress);
-  }, [progress]);
+    get(PROGRESS_KEY).then((stored) => {
+      setProgress(stored || {});
+      setLoaded(true);
+    });
+  }, []);
+
+  useEffect(() => {
+    if (loaded) set(PROGRESS_KEY, progress);
+  }, [progress, loaded]);
 
   const toggleItem = (itemId) => {
     setProgress((prev) => {
@@ -60,7 +58,7 @@ export function useChecklistState() {
     return { total, done, pct: total ? Math.round((done / total) * 100) : 0 };
   };
 
-  return { progress, toggleItem, isDone, getFlatItems, getCurrentItem, getStats };
+  return { progress, loaded, toggleItem, isDone, getFlatItems, getCurrentItem, getStats };
 }
 
 export function getAllChecklists() {

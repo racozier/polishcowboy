@@ -1,10 +1,13 @@
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
+import { get, set } from "idb-keyval";
 import { getAllChecklists, useChecklistState } from "./hooks/useChecklistState";
 import { useDailyReminders } from "./hooks/useDailyReminders";
 import ChecklistView from "./components/ChecklistView";
 import { HERO_IMAGES, CHECKLIST_IMAGES } from "./data/images";
 import "./App.css";
 
+// Stored in IndexedDB (not localStorage) so the service worker can read the
+// active language/checklist in the background to localize its reminder text.
 const LANG_KEY = "ridingPath.lang.v1";
 const TAB_KEY = "ridingPath.activeTab.v1";
 
@@ -26,6 +29,10 @@ const STRINGS = {
     pl: "Ukończono! Jesteś gotowy/a. 🐎",
     en: "All done! You're ready. 🐎",
   },
+  bgActive: {
+    pl: "+ przypomnienia w tle (zainstaluj jako appkę)",
+    en: "+ background reminders (install as an app)",
+  },
 };
 
 const HERO_IMAGE = HERO_IMAGES[0];
@@ -34,18 +41,21 @@ function App() {
   const checklists = getAllChecklists();
   const { isDone, toggleItem, getCurrentItem, getStats } = useChecklistState();
 
-  const [lang, setLang] = useState(() => localStorage.getItem(LANG_KEY) || "pl");
-  const [activeTab, setActiveTab] = useState(
-    () => localStorage.getItem(TAB_KEY) || checklists[0].id
-  );
+  const [lang, setLang] = useState("pl");
+  const [activeTab, setActiveTab] = useState(checklists[0].id);
+
+  useEffect(() => {
+    get(LANG_KEY).then((v) => v && setLang(v));
+    get(TAB_KEY).then((v) => v && setActiveTab(v));
+  }, []);
 
   const setLangPersist = (l) => {
     setLang(l);
-    localStorage.setItem(LANG_KEY, l);
+    set(LANG_KEY, l);
   };
   const setTabPersist = (id) => {
     setActiveTab(id);
-    localStorage.setItem(TAB_KEY, id);
+    set(TAB_KEY, id);
   };
 
   const activeChecklist = checklists.find((c) => c.id === activeTab);
@@ -68,7 +78,8 @@ function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeTab, lang]);
 
-  const { permission, requestPermission } = useDailyReminders(getReminderPayload);
+  const { permission, requestPermission, periodicSyncActive } =
+    useDailyReminders(getReminderPayload);
 
   return (
     <div className="app">
@@ -112,7 +123,10 @@ function App() {
         {permission === "unsupported" ? (
           <span>{STRINGS.remindersUnsupported[lang]}</span>
         ) : permission === "granted" ? (
-          <span className="reminders-on">{STRINGS.remindersOn[lang]}</span>
+          <span className="reminders-on">
+            {STRINGS.remindersOn[lang]}
+            {periodicSyncActive && <em> {STRINGS.bgActive[lang]}</em>}
+          </span>
         ) : (
           <button onClick={requestPermission}>{STRINGS.enableReminders[lang]}</button>
         )}
